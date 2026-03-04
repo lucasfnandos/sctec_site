@@ -2,22 +2,19 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+nav ul li {
+    display: inline;
+}
+
 p {
-    color: blue;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.grande {
-    color: black;
-    font-size: large;
-}
-
-#vermelho {
-    color: red;
-    font-size: small;
-}
 
 section#sobre img{
     max-width: 150px;
     max-height: 150px;
+    border: solid 1px #000;
 }

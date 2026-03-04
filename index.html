@@ -46,6 +46,36 @@
         </article>
     </section>
 
+    <section id="habilidades">
+        <h2>Habilidades e Tecnologias</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de produzir estruturas de páginas semânticas e responsivas</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de sripts do lado do cliente para interações</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
     <footer>
         <p>Direitos reservados a Lucas</p>
         <section id="contato">
@@ -57,19 +87,19 @@
             </address> -->
             <form action="">
                 <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome"><br>
+                <input type="text" id="nome" name="nome" required><br>
                 
                 <label for="email">Email: </label>
-                <input type="email" name="email" id="email"><br>
+                <input type="email" name="email" id="email" required><br>
                 
                 <label for="telefone">Telefone: </label>
                 <input type="tel" name="telefone" id="telefone"><br>
                 
                 <label for="assunto">Assunto: </label>
-                <select name="assunto" id="assunto">
+                <select name="assunto" id="assunto" required>
                     <option value="orcamento">Orçamento</option>
                     <option value="duvida">Dúvida</option>
-                    <option value="outro">Outro</option>
+                    <option value="outro" selected>Outro</option>
                 </select> <br>
                 <label for="mensagem">Mensagem: </label>
                 <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea> <br>

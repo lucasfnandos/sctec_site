@@ -50,11 +50,37 @@
         <p>Direitos reservados a Lucas</p>
         <section id="contato">
             <h2>Contato</h2>
-            <p>Tem um projeto em mente?</p>
-            <address>
+            <p>Tem um projeto em mente? Entre em contato.</p>
+            <!--<address>
                 Email: <a href="mailto:meuemail@gmail.com">meuemail@gmail.com</a><br>
                 Telefone <a href="tel:+5527992919363">992919363</a>
-            </address>
+            </address> -->
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome"><br>
+                
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email"><br>
+                
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone"><br>
+                
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select> <br>
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea> <br>
+                
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label><br>
+
+                <input type="submit" value="Enviar">
+            
+            </form>
+
         </section>
     </footer>
 </body>

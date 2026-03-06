@@ -92,10 +92,32 @@ section#habilidades table td, th {
 
 section#contato form {
     padding: 10px 0 10px;
-}
-section#contato form input {
     width: 50%;
-    margin: 6px 0 6px;
+    margin: auto;
+}
+section#contato form input[type=text], input[type=email], input[type=tel], textarea{
+    width: 100%;
+    margin: 8px 0 8px;
+    min-height: 35px;
+}
+
+section#contato form input[type=checkbox] {
+    max-width: 30px;
+}
+
+section#contato form select {
+    width: 30%;
+    min-height: 35px;
+    margin: 8px 0 8px;
+}
+
+section#contato form input[type=submit] {
+    margin: 8px 0 8px;
+    height: 35px;
+    width: 20%;
+    font-size: 20px;
+    background-color: rgba(0, 255, 13, 0.356);
+    border: none;
 
 }
 
